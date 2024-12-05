@@ -892,6 +892,7 @@ BEGIN
         ('PD0002', 'PR00002', 100, '2024-07-05', '12:30:00', 'FA00001', 3000000),
         ('PD0003', 'PR00003', 20,  '2024-07-05', '12:30:00', 'FA00002', 120000);
 
+        INSERT INTO permission (dept_ID, account_management, account_period_management, budget_management)
         VALUES
         ('DE00001', 1, 1, 1),
         ('DE00002', 1, 0, 1),
